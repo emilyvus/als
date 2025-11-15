@@ -13,32 +13,35 @@ This study is the first to construct population-based genomic profiles for ALS a
 
 # Populations (Sorted by Region)
 
+## Populations (Region-Colored)
+
 | Region     | Population Name                                 | Code | Samples | Country      |
 |------------|--------------------------------------------------|------|---------|--------------|
-| Africa     | Esan in Nigeria                                 | ESN  | 173     | Nigeria      |
-| Africa     | Gambian in Western Division – Mandinka          | GWD  | 179     | Gambia       |
-| Africa     | Luhya in Webuye, Kenya                          | LWK  | 120     | Kenya        |
-| Africa     | Mende in Sierra Leone                           | MSL  | 128     | Sierra Leone |
-| Africa     | Yoruba in Ibadan, Nigeria                       | YRI  | 120     | Nigeria      |
-| Americas   | African Ancestry in SW USA                      | ASW  | 62      | USA          |
-| Americas   | African Caribbean in Barbados                   | ACB  | 120     | Barbados     |
-| Americas   | Colombian in Medellín, Colombia                 | CLM  | 136     | Colombia     |
-| Americas   | Mexican Ancestry in Los Angeles, USA            | MXL  | 71      | USA          |
-| Americas   | Peruvian in Lima, Peru                          | PEL  | 122     | Peru         |
-| Americas   | Puerto Rican in Puerto Rico                     | PUR  | 139     | Puerto Rico  |
-| East Asia  | Chinese Dai in Xishuangbanna, China             | CDX  | 102     | China        |
-| East Asia  | Han Chinese in Beijing, China                   | CHB  | 120     | China        |
-| East Asia  | Han Chinese South                               | CHS  | 163     | China        |
-| East Asia  | Japanese in Tokyo, Japan                        | JPT  | 120     | Japan        |
-| East Asia  | Kinh in Ho Chi Minh City, Vietnam               | KHV  | 124     | Vietnam      |
-| Europe     | British From England and Scotland               | GBR  | 100      | UK           |
-| Europe     | Finnish in Finland                              | FIN  | 103      | Finland      |
-| Europe     | Iberian Populations in Spain                    | IBS  | 157      | Spain        |
-| Europe     | Toscani in Italia                               | TSI  | 114      | Italy        |
-| South Asia | Bengali in Bangladesh                           | BEB  | 144      | Bangladesh   |
-| South Asia | Gujarati Indians in Houston, USA                | GIH  | 109      | USA          |
-| South Asia | Indian Telugu in the U.K.                       | ITU  | 118      | UK           |
-| South Asia | Punjabi in Lahore, Pakistan                     | PJL  | 158      | Pakistan     |
-| South Asia | Sri Lankan Tamil in the UK                      | STU  | 128      | UK           |
+| 🟩 Africa  | Esan in Nigeria                                 | ESN  | 173     | Nigeria      |
+| 🟩 Africa  | Gambian in Western Division – Mandinka          | GWD  | 179     | Gambia       |
+| 🟩 Africa  | Luhya in Webuye, Kenya                          | LWK  | 120     | Kenya        |
+| 🟩 Africa  | Mende in Sierra Leone                           | MSL  | 128     | Sierra Leone |
+| 🟩 Africa  | Yoruba in Ibadan, Nigeria                       | YRI  | 120     | Nigeria      |
+| 🟦 Americas| African Ancestry in SW USA                      | ASW  | 62      | USA          |
+| 🟦 Americas| African Caribbean in Barbados                   | ACB  | 120     | Barbados     |
+| 🟦 Americas| Colombian in Medellín, Colombia                 | CLM  | 136     | Colombia     |
+| 🟦 Americas| Mexican Ancestry in Los Angeles, USA            | MXL  | 71      | USA          |
+| 🟦 Americas| Peruvian in Lima, Peru                          | PEL  | 122     | Peru         |
+| 🟦 Americas| Puerto Rican in Puerto Rico                     | PUR  | 139     | Puerto Rico  |
+| 🟧 East Asia| Chinese Dai in Xishuangbanna, China             | CDX  | 102     | China        |
+| 🟧 East Asia| Han Chinese in Beijing, China                   | CHB  | 120     | China        |
+| 🟧 East Asia| Han Chinese South                               | CHS  | 163     | China        |
+| 🟧 East Asia| Japanese in Tokyo, Japan                        | JPT  | 120     | Japan        |
+| 🟧 East Asia| Kinh in Ho Chi Minh City, Vietnam               | KHV  | 124     | Vietnam      |
+| 🟪 Europe  | British From England and Scotland               | GBR  | 100     | UK           |
+| 🟪 Europe  | Finnish in Finland                              | FIN  | 103     | Finland      |
+| 🟪 Europe  | Iberian Populations in Spain                    | IBS  | 157     | Spain        |
+| 🟪 Europe  | Toscani in Italia                               | TSI  | 114     | Italy        |
+| 🟨 South Asia| Bengali in Bangladesh                           | BEB  | 144     | Bangladesh   |
+| 🟨 South Asia| Gujarati Indians in Houston, USA                | GIH  | 109     | USA          |
+| 🟨 South Asia| Indian Telugu in the U.K.                       | ITU  | 118     | UK           |
+| 🟨 South Asia| Punjabi in Lahore, Pakistan                     | PJL  | 158     | Pakistan     |
+| 🟨 South Asia| Sri Lankan Tamil in the UK                      | STU  | 128     | UK           |
+
 
 Reference: https://www.coriell.org/1/NHGRI/Collections/1000-Genomes-Project-Collection/1000-Genomes-Project 
