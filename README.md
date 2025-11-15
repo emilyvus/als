@@ -44,4 +44,4 @@ This study is the first to construct population-based genomic profiles for ALS a
 | 🟨 South Asia| Sri Lankan Tamil in the UK                      | STU  | 128     | UK           |
 
 
-Reference: https://www.coriell.org/1/NHGRI/Collections/1000-Genomes-Project-Collection/1000-Genomes-Project 
+**Reference**: https://www.coriell.org/1/NHGRI/Collections/1000-Genomes-Project-Collection/1000-Genomes-Project 
