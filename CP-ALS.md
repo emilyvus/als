@@ -17,7 +17,7 @@ We collected open-source genomic datasets from several sources:
 - hg38 variant data from the 1000 Genomes Project
 - 25 global populations from NCBI
 - Each population includes approximately 100–180 genomes
-- Variant positions across 34 ALS-related genes from ClinVar
+- Variant positions across 34 ALS-related genes from Coriel Institute
 
 These datasets provide a diverse representation of global ALS-related genetic
 variation.
