@@ -30,7 +30,7 @@ als/
 
 ### Files
 
-| File | Description |
+| Name | Description |
 |------|-------------|
 | `README.md` | Project overview, abstract, and high-level summary of the CP-ALS framework. |
 | `INSTALL.md` | Step-by-step installation and setup guide covering Conda environment creation, dependency installation, Jupyter kernel registration, and notebook launch instructions. |
