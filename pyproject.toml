@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "als"
+version = "0.1.0"
+description = "ALS genomic analysis: clustering, validation, and ML prediction notebooks"
+requires-python = ">=3.12"
+
+dependencies = [
+    # Core data science
+    "numpy>=1.26",
+    "pandas>=2.1",
+    "scipy>=1.11",
+
+    # Machine learning
+    "scikit-learn>=1.4",
+
+    # Visualization
+    "matplotlib>=3.8",
+    "seaborn>=0.13",
+
+    # Jupyter
+    "jupyterlab>=4.1",
+    "notebook>=7.1",
+    "ipykernel>=6.29",
+]
+
+[project.optional-dependencies]
+dev = [
+    "black",
+    "ruff",
+]
