@@ -28,7 +28,7 @@ als/
     └── als2als_prediction_SOD1.ipynb
 ```
 
-### Root Files
+### Files
 
 | File | Description |
 |------|-------------|
