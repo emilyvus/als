@@ -11,6 +11,8 @@ For each cluster, machine learning models were trained to predict variant counts
 This study is the first to construct population-based genomic profiles for ALS and to demonstrate transferable modeling across related neurodegenerative diseases. It establishes a scalable machine learning framework for studying genetic disorders in diverse populations with limited genetic data and supports the development of diagnostic strategies.
 
 
+-----------------------------------------------------------------
+
 *Refer INSTALL.md for installation instructions.*
 
 *Refer CP-ALS.md for a detailed description of the method and pipeline.*
