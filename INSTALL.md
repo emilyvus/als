@@ -1,4 +1,4 @@
-# 🧬 ALS Project — Installation & Setup Guide
+# 🧬 CP-ALS Project — Installation & Setup Guide
 
 ---
 
