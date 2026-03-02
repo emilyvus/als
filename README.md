@@ -14,6 +14,12 @@ This study establishes the first scalable population-based genomic profiling fra
 
 -----------------------------------------------------------------
 
+## Publications & Presentations
+
+- **CP-ALS: A Novel Cross-Population Framework for Amyotrophic Lateral Sclerosis Genomic Analysis & Modeling**, Emily Vu, Poster Presentation, *9th Annual HeLa: Ethics, Research and Access Conference and Research Symposium*,  New York Medical College, 02/2026
+
+-----------------------------------------------------------------
+
 ## 📁 Project Structure
 
 ```
