@@ -91,12 +91,11 @@ Both commands will open a browser window. Navigate to the **`notebooks/`** folde
 
 | Notebook | Description |
 |---|---|
-| `als2als_prediction_SOD1.ipynb` | ML prediction of SOD1 gene variant counts using cluster-based leave-one-out validation |
-| `clustering_analysis_SC.ipynb` | Clustering analysis of single-cell genomic data |
-| `clustering_comparison_SC.ipynb` | Comparison of clustering methods on single-cell data |
-| `gene_level_validation_heatmap.ipynb` | Gene-level validation using heatmaps |
-| `genome_level_validation_pca.ipynb` | Genome-level validation using PCA |
+| `clustering_comparison_SC.ipynb` | Comparison of clustering methods on variant data |
 | `population_level_validation_tsne.ipynb` | Population-level validation using t-SNE |
+| `genome_level_validation_pca.ipynb` | Genome-level validation using PCA |
+| `gene_level_validation_heatmap.ipynb` | Gene-level validation using heatmaps |
+| `als2als_prediction_SOD1.ipynb` | ML prediction of SOD1 gene variant counts using cluster-based leave-one-out validation |
 
 ---
 
