@@ -3,6 +3,7 @@
 Contact: Emily Vu (emilyvu09@gmail.com)
 
 *Refer INSTALL.md for installation instructions.*
+
 *Refer CP-ALS.md for a detailed description of the method and pipeline.*
 
 Amyotrophic lateral sclerosis (ALS) is an incurable neurodegenerative disease. Although its genetic causes are complex, most genetic research on ALS has focused primarily on North American and European populations, underscoring the need for further investigation in other underrepresented populations. To address this gap, this study developed a novel cross-population genomic framework that integrates data from the 1000 Genomes Project and NCBI, encompassing 25 populations, over 3,000 genomes, and 34 genes.
