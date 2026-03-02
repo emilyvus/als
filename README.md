@@ -45,3 +45,176 @@ This study is the first to construct population-based genomic profiles for ALS a
 
 
 **Reference**: https://www.coriell.org/1/NHGRI/Collections/1000-Genomes-Project-Collection/1000-Genomes-Project 
+
+# CP-ALS Framework Pipeline
+
+## Step 1 — Data Collection
+
+Open-source genomic datasets
+
+- hg38 variant data (1000 Genomes Project)
+- 25 populations (NCBI)
+  - Each population contains 100–180 genomes
+- 34 ALS-related genes (ClinVar)
+- Variant positions across genes
+
+
+## Step 2 — Data Preprocessing
+
+Cleaning and integration:
+
+- Data cleaning
+- Data merging
+- Variant normalization
+
+Output:
+
+Variant Data Cube
+
+Population × Genome × Gene
+
+
+## Step 3 — Population Clustering
+
+Algorithms:
+
+- KMeans
+- Gaussian Mixture Model
+- Agglomerative Clustering
+
+Cluster sizes tested:
+
+k = 3, 5, 7
+
+Input matrix:
+
+- Rows: 25 populations
+- Columns: 34 genes
+- Cell value: Mean variant count per gene
+
+
+## Step 4 — Cluster Validation
+
+Objective validation:
+
+Silhouette Coefficient
+
+- Standard cluster-quality metric
+- Highest value observed at k = 5
+
+Visualization validation:
+
+Population level:
+
+t-SNE projection
+
+Variant cube → 25 × 2 table
+
+
+Genome level:
+
+PCA projection
+
+Population genomes → (#genomes × 2 table)
+
+
+Gene level:
+
+t-test p-values for:
+
+- SOD1
+- FUS
+- TARDBP
+
+Outcome:
+
+- Populations in the same cluster show strong genetic overlap
+- Populations in different clusters separate clearly
+
+Final selection:
+
+k = 5 clusters
+
+
+## Step 5 — ALS Machine Learning Models
+
+Models:
+
+- Linear Regression
+- Random Forest Regressor
+- Support Vector Regressor
+
+Training scheme:
+
+Within each cluster:
+
+Train = All populations except one  
+Test = Target population
+
+Target genes:
+
+- FUS
+- SOD1
+- TARDBP
+
+Features:
+
+Mean variant counts of remaining ALS genes
+
+Metrics:
+
+- RMSE
+- MAE
+
+Method comparison:
+
+- CP-ALS (within-cluster training)
+- Cluster-Pair baseline
+- Leave-One-Cluster-Out (LOCO)
+
+Visualization:
+
+Dot plots with 95% confidence intervals
+
+
+## Step 6 — ALS → FTD Transfer Learning
+
+Goal:
+
+Predict FTD gene variant counts using ALS genetic structure
+
+Target FTD genes:
+
+- MAPT
+- GRN
+- CHMP2B
+
+Features:
+
+Mean variant counts of shared ALS–FTD genes
+
+Models:
+
+- Linear Regression
+- Random Forest
+- SVR
+
+Training scheme:
+
+Train = All populations except one  
+Test = Target population
+
+Metrics:
+
+- RMSE
+- MAE
+
+Visualization:
+
+Dot plots with 95% confidence intervals
+
+Outcome:
+
+- Demonstrates cross-disease predictive power
+- Cluster-aware modeling improves accuracy
+
