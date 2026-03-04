@@ -1,17 +1,17 @@
-# 🧬 CP-ALS Project — Installation & Setup Guide
+# CP-ALS Project — Installation & Setup Guide
 
 ---
 
-## 📋 Prerequisites
+## Prerequisites
 
 - [Conda](https://docs.conda.io/en/latest/miniconda.html) (Miniconda or Anaconda) installed on your system
 - Git (to clone the repository)
 
 ---
 
-## 🐧 Step 1 — Create a Conda Environment
+## Step 1 — Create a Conda Environment
 
-### On **Linux** 🐧 or **macOS** 🍎
+### On **Linux**  or **macOS** 
 
 Open a terminal and run:
 
@@ -19,7 +19,7 @@ Open a terminal and run:
 conda create -n als python=3.12 -y
 ```
 
-> 💡 This creates a new isolated environment named **`als`** with Python 3.12.
+> This creates a new isolated environment named **`als`** with Python 3.12.
 
 Activate the environment:
 
@@ -31,7 +31,7 @@ You should see `(als)` at the beginning of your terminal prompt.
 
 ---
 
-## 📦 Step 2 — Install Dependencies from `pyproject.toml`
+##  Step 2 — Install Dependencies from `pyproject.toml`
 
 Make sure you are in the root directory of the project (where `pyproject.toml` is located), then run:
 
@@ -39,7 +39,7 @@ Make sure you are in the root directory of the project (where `pyproject.toml` i
 pip install -e .
 ```
 
-> 🔧 The `-e` flag installs the project in **editable mode**, so any local changes are immediately reflected without reinstalling.
+> The `-e` flag installs the project in **editable mode**, so any local changes are immediately reflected without reinstalling.
 
 This will install all required packages including:
 
@@ -57,17 +57,17 @@ This will install all required packages including:
 
 ---
 
-## 🔌 Step 3 — Register the Conda Environment as a Jupyter Kernel
+## Step 3 — Register the Conda Environment as a Jupyter Kernel
 
 ```bash
 python -m ipykernel install --user --name als --display-name "Python (als)"
 ```
 
-> ✅ This makes the `als` environment available as a kernel inside JupyterLab and Jupyter Notebook.
+>  This makes the `als` environment available as a kernel inside JupyterLab and Jupyter Notebook.
 
 ---
 
-## 🚀 Step 4 — Launch Jupyter and Run the Notebooks
+## Step 4 — Launch Jupyter and Run the Notebooks
 
 ### Option A — JupyterLab (recommended)
 
@@ -83,11 +83,11 @@ jupyter notebook
 
 Both commands will open a browser window. Navigate to the **`notebooks/`** folder and open any `.ipynb` file.
 
-> 🌐 If the browser does not open automatically, copy the URL printed in the terminal (e.g., `http://localhost:8888/lab?token=...`) and paste it into your browser.
+> If the browser does not open automatically, copy the URL printed in the terminal (e.g., `http://localhost:8888/lab?token=...`) and paste it into your browser.
 
 ---
 
-## 📂 Available Notebooks
+## Available Notebooks
 
 | Notebook | Description |
 |---|---|
@@ -99,7 +99,7 @@ Both commands will open a browser window. Navigate to the **`notebooks/`** folde
 
 ---
 
-## 🛑 Deactivating the Environment
+## Deactivating the Environment
 
 When you are done, deactivate the conda environment:
 
@@ -109,7 +109,7 @@ conda deactivate
 
 ---
 
-## 🗑️ Removing the Environment (Optional)
+##  Removing the Environment (Optional)
 
 To completely remove the `als` environment:
 
@@ -119,7 +119,7 @@ conda remove -n als --all -y
 
 ---
 
-## ❓ Troubleshooting
+##  Troubleshooting
 
 - **`conda: command not found`** — Make sure Conda is installed and your shell is initialized: `conda init bash` (or `zsh`), then restart your terminal.
 - **Kernel not showing in Jupyter** — Re-run the `ipykernel install` command from Step 3.
