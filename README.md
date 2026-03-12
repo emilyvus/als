@@ -2,15 +2,15 @@
 
 Contact: Emily Vu (emilyvu09@gmail.com)
 
-Amyotrophic lateral sclerosis (ALS) is a fatal neurodegenerative disease with complex genetic causes. Most ALS genetic studies have focused on European and North American populations, leaving many global populations underrepresented. To address this gap, this study developed CP-ALS, a novel cross-population genomic framework integrating variant data from the 1000 Genomes Project, NCBI, and ClinVar, encompassing 25 populations, over 3,000 genomes, and 34 ALS-associated genes. This framework constructs cluster-aware genomic variant profiles across diverse populations.
+Amyotrophic lateral sclerosis (ALS) is a fatal, incurable neurodegenerative disease with complex genetic causes. Most ALS genetic studies have focused on European and North American populations, leaving many global populations underrepresented. To address this gap, this study developed CP-ALS, a novel cross-population genomic framework using data from the 1000 Genomes Project, NCBI, and Coriell Institute, investigating 25 populations, over 3,000 genomes, and 34 ALS-associated genes. 
 
-Population clusters were identified using mean variant profiles and rigorously validated using three clustering algorithms and the Silhouette Coefficient. Cluster stability was further verified through multi-level validation, including population-level visualization using t-SNE, genome-level analysis using principal component analysis (PCA), and gene-level statistical testing of major ALS genes (SOD1, FUS, TARDBP). These analyses consistently showed strong genetic similarity within clusters and clear separation between clusters.
+Population clusters were identified using mean variant profiles and rigorously validated using three clustering algorithms and the Silhouette Coefficient. Cluster stability was further verified through multi-level validation, including population-level visualization using t-SNE, genome-level analysis using principal component analysis (PCA), and statistical testing of major ALS genes (SOD1, FUS, TARDBP). These analyses consistently showed strong genetic similarity within clusters and clear separation between clusters.
 
-Within each cluster, machine learning models were trained using leave-one-population-out validation to predict variant counts of target ALS genes. A total of 675 models were evaluated and consistently achieved lower RMSE and MAE than Cluster-Pair and Leave-One-Cluster-Out baselines, demonstrating the effectiveness of cluster-aware modeling for underrepresented populations.
+Within each cluster, machine learning models were trained using leave-one-population-out validation to predict variant counts of target ALS genes. A total of 675 models were evaluated, and CP-ALS consistently achieved lower RMSE and MAE than Cluster-Pair and Leave-One-Cluster-Out baselines, demonstrating the effectiveness of cluster-aware modeling for underrepresented populations.
 
-Using the same population structure, transfer learning from ALS to frontotemporal dementia (FTD) achieved comparable prediction accuracy for major FTD genes. Models trained on ALS-derived clusters successfully predicted FTD variant counts, suggesting that shared genetic architecture between ALS and FTD can be leveraged for genomic prediction, particularly in populations with limited disease-specific data.
+Using the same population structure, transfer learning from ALS to frontotemporal dementia (FTD) achieved comparable prediction accuracy for major FTD genes. Models trained on ALS-derived clusters demonstrated robust performance and low variance, suggesting that shared genetic architecture between diseases can be leveraged for genomic prediction, particularly in populations with a lack of disease-specific data.
 
-This study establishes the first scalable population-based genomic profiling framework for ALS and demonstrates transferable cluster-informed modeling across neurodegenerative diseases.
+This study establishes the first scalable population-based framework for ALS and demonstrates transferable cluster-informed modeling across diseases.
 
 -----------------------------------------------------------------
 
@@ -20,7 +20,7 @@ This study establishes the first scalable population-based genomic profiling fra
 
 -----------------------------------------------------------------
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 als/
